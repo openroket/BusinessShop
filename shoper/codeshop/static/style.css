@@ -16,7 +16,7 @@
     h1 {
         font-family: "Tiny5";
         font-size: 55px;
-        margin-right: 970px;
+        margin-right: 950px;
         color: #ebe4e4;
         background-color: #030202;
 
@@ -82,6 +82,7 @@
         background: white;
         cursor: pointer;
         color: white;
+
     }
     h3 {
         font-family: "Comfortaa";
@@ -89,4 +90,5 @@
         width: 100px;
         margin-left: 255px
     }
+
 
