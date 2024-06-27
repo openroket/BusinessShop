@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+    html, body {
+        background-color: #171515;
+        padding: 0;
+        margin: 0;
+    }
+    * {
+        background-color: #171515;
+    }
+
+    h1 {
+        font-family: "Tiny5";
+        font-size: 55px;
+        margin-right: 970px;
+        color: #ebe4e4;
+        background-color: #030202;
+
+    }
+    p {
+        font-family: "Comfortaa" ;
+        font-size: 18px;
+        width: 800px;
+        height: 100px;
+        margin-left: 9px;
+        margin-top: 20px;
+        color: white;
+    }
+    h2 {
+        font-family: "Jost" ;
+        width: 300px;
+        margin-left: 7px;
+        font-style: Italic;
+        color: #d1cbcb;
+    }
+    a {
+        font-size: 20px;
+        font-family: "Ubuntu";
+        color: white;
+        margin-left: 20px;
+        text-decoration: none;
+        background-color: #030202;
+    }
+    img {
+        width: 180px;
+        border-radius: 10px;
+    }
+    .product {
+        border: 1px black solid;
+        border-radius: 10px;
+        display: flex;
+        height: 270px;
+        margin-top: 15px;
+        background-color: #2e2b2b;
+        width: 88%
+    }
+    .product * {
+        background-color: #2e2b2b;
+    }
+    .productList{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: #030202;
+    }
+    button {
+        margin-left: 230px;
+        height: 50px;
+        width: 100px;
+        border: 1px white solid;
+        border-radius: 10px;
+        background: white;
+        cursor: pointer;
+        color: white;
+    }
+    h3 {
+        font-family: "Comfortaa";
+        color: white;
+        width: 100px;
+        margin-left: 255px
+    }
+

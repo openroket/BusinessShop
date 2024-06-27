@@ -1,57 +1,47 @@
-<style>
-    * {
-        font-family: Verdana;
-    }
-    h1 {
-        font-size: 55px;
-    }
-    p {
-        font-size: 20px
-        width: 1000px;
-        margin-left: 5px;
-        margin-top: -10px;
-    }
-    h2 {
-        width: 300px;
-        margin-left: 5px;
-    }
-    a {
-        font-size: 20px;
-    }
-    img {
-        width: 200px;
-    }
-    .product {
-        border: 1px black solid;
-        display: flex;
-        height: 270px;
-        margin-top: 5px;
-    }
-    button {
-        margin-left: auto;
-    }
-</style>
+{% load static %}
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
+<div class = "text">
 
 <h1>CONSOLE+</h1>
 
-<a href="/main"> Main </a>
-<a href="/products"> Goods </a>
-<a href="/aboutus"> Info </a>
+<a href="/main"> Главная </a>
+<a href="/products"> Товары </a>
+<a href="/aboutus"> О нас </a>
 
-<div class = "product">
-    <img src="https://upload.wikimedia.org/wikipedia/ru/f/f4/Minecraft_Cover_Art.png"/>
-    <div>
-        <h2> Minecraft </h2>
-        <p> в пункте P будет описание </p>
-    </div>
-    <button> Buy </button>
 </div>
 
-<div class = "product">
-    <img src="https://upload.wikimedia.org/wikipedia/ru/6/6e/God_of_War-_Ragnar%C3%B6k.jpg"/>
-    <div>
-        <h2> God of War: Ragnarok </h2>
-        <p> в пункте P будет описание </p>
+<div class = "productList">
+    <div class = "product">
+        <img src="https://upload.wikimedia.org/wikipedia/ru/f/f4/Minecraft_Cover_Art.png"/>
+        <div>
+            <h2> Minecraft </h2>
+            <p>
+            Minecraft — это игра-песочница с открытым миром и элементами симулятора выживания.
+            Игроки исследуют кубический мир, строят различные сооружения и добывают ресурсы.
+            Игра позволяет игрокам проявлять свою креативность и создавать всё, что угодно: от простых домов до сложных механизмов и даже целых городов.
+            </p>
+        </div>
+        <div class = "pricik">
+            <h3>3 999</h3>
+            <button> Купить </button>
+        </div>
     </div>
-     <button> Buy </button>
+
+    <div class = "product">
+        <img src="https://upload.wikimedia.org/wikipedia/ru/6/6e/God_of_War-_Ragnar%C3%B6k.jpg"/>
+        <div>
+         <h2> God of War: Ragnarök </h2>
+         <p>
+            God of War: Ragnarök — это продолжение популярной игры God of War, разработанное студией Santa Monica Studio.
+            Игра представляет собой приключенческий боевик с элементами RPG и мифологии скандинавских богов.
+            Сюжет игры разворачивается после событий предыдущей части. Кратос и Атрей продолжают своё путешествие по мирам скандинавской мифологии, пытаясь предотвратить Рагнарёк — гибель богов и всего мира.
+            Им предстоит сразиться с новыми врагами, разгадать загадки и принять непростые решения, которые повлияют на исход событий.
+            </p>
+        </div>
+        <div  class = "pricik">
+            <h3>7 499</h3>
+            <button> Купить </button>
+        </div>
+    </div>
 </div>
